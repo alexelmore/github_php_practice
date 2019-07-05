@@ -3,7 +3,13 @@
 class Pages
 {
     public function __construct()
+    { }
+
+    public function index()
+    { }
+
+    public function about($id)
     {
-        echo 'Pages loaded';
+        echo 'This is about and the id is ' . $id;
     }
 }
